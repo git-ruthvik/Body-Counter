@@ -34,8 +34,8 @@ while True:
     file.write(num)
     file.write('\n')
 
-    #Press Enter Key to exit stream
-    if cv2.waitKey(1) == 13:
+    #Press Escape Key to exit stream
+    if cv2.waitKey(1) == 27:
         break
 
 # Release video stream
